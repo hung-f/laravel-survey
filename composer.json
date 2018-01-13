@@ -1,5 +1,5 @@
 {
-    "name": "vam/survey",
+    "name": "vam/laravel-survey",
     "description": "this is package survey question - development by hungle ",
     "type": "laravel",
     "license": "MIT",
