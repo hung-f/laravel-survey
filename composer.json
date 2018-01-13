@@ -1,0 +1,29 @@
+{
+    "name": "vam/survey",
+    "description": "this is package survey question - development by hungle ",
+    "type": "laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Le Van Hung",
+            "email": "tuanhung.cntt@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Vam\\Survey\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "vam\\survey\\SurveyServiceProvider"
+            ],
+            "aliases": {
+                "Survey" :  "vam\\survey\\Facades\\Survey"
+            }
+        }
+    }
+}
