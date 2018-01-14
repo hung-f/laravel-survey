@@ -9,7 +9,7 @@
             "email": "tuanhung.cntt@gmail.com"
         }
     ],
-    "minimum-stability": "dev-master",
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4": {
