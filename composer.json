@@ -27,7 +27,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "vam\\survey\\SurveyServiceProvider"
+                "vam\\survey\\src\\SurveyServiceProvider"
             ],
             "aliases": {
                 "Survey" :  "vam\\survey\\Facades\\Survey"
