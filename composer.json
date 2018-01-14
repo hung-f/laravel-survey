@@ -3,14 +3,22 @@
     "description": "this is package survey question - development by hungle ",
     "type": "laravel",
     "license": "MIT",
+    "homepage": "https://github.com/hungdha/laravel-survey",
     "authors": [
         {
-            "name": "Le Van Hung",
+            "name": "Hung Le",
             "email": "tuanhung.cntt@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {},
+  
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "~5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "laravel/laravel": "~5.5"
+    },
     "autoload": {
         "psr-4": {
             "Vam\\Survey\\": "src/"
