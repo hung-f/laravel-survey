@@ -3,6 +3,7 @@
     "description": "this is package survey question - development by hungle ",
     "type": "laravel",
     "license": "MIT",
+    "version": "1.0.2",
     "homepage": "https://github.com/hungdha/laravel-survey",
     "authors": [
         {
