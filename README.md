@@ -3,4 +3,8 @@
 composer require vam/laravel-survey
 ```
 
-Author hungle
+```$xslt
+php artisan vendor:publish --provider="Vam\Survey\SurveyServiceProvider"
+```
+
+`Good luck`
