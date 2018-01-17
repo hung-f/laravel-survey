@@ -1,9 +1,14 @@
 <?php
 
 Route::get('survey/form', function(){
-    return view('surveys.form');
+    return view('survey::form');
 });
 
 Route::get('survey/list', function(){
-    return view('surveys.list');
+    return view('survey::list');
+});
+
+
+Route::get('survey/test', function(){
+    return view('survey::test');
 });

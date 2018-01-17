@@ -14,21 +14,20 @@ class SurveyServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // $this->publishes([
-        //     __DIR__.'/../config/survey.php' => config_path('survey.php'),
-        // ]);
-
         $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
-         
+        $this->loadViewsFrom(__DIR__.'/resources/views', 'survey');
+        
+        /*
         $this->publishes([
             __DIR__.'/views' => base_path('resources/views/surveys'),
             __DIR__.'/../config/survey.php' => config_path('survey.php')
         ]);
+        */
     }
 
     public function register()
     {
-        $this->app->bind('vam-survey', function(){
+        $this->app->bind('survey', function(){
             return new Survey();
         });
     }
